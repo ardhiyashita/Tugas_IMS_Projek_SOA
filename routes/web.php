@@ -20,10 +20,19 @@ Route::get('/', function () {
 
 Route::group(['prefix' => 'film'], function() {
     Route::get('/', [FilmController::class, 'landingPage'])->name('landing-page');
-    Route::get('/{id}/produk-page', [FilmController::class, 'produkPage'])->name('produk-page');
-    Route::get('/transaksi-page', [FilmController::class, 'transaksiPage'])->name('transaksi-page');
-    Route::get('/bukti-pembayaran-page', [FilmController::class, 'buktiPembayaranPage'])->name('bukti-pembayaran-page');
-    Route::get('/status-transaksi-page', [FilmController::class, 'statusTransaksiPage'])->name('status-transaksi-page');
-    
 
+    Route::get('/login', [FilmController::class, 'loginPage'])->name('login-page');
+    Route::get('/dashboard', [FilmController::class, 'dashboardPage'])->name('dashboard-page');
+
+    Route::get('/crud-page', [FilmController::class, 'crudPage'])->name('crud-page');
+    Route::get('/{id}/read-film', [FilmController::class, 'readFilm'])->name('read-film');
+
+    Route::get('/create-film', [FilmController::class, 'createFilm'])->name('create-film');
+    Route::post('/save-create-film', [FilmController::class, 'saveCreateFilm'])->name('save-create-film');
+
+    Route::get('/{id}/update-film', [FilmController::class, 'updateFilm'])->name('update-film');
+    Route::post('/{id}/save-update-film', [FilmController::class, 'saveUpdateFilm'])->name('save-update-film');
+
+    Route::post('/{id}/delete-film', [FilmController::class, 'deleteFilm'])->name('delete-film');
+    
 }); 

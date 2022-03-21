@@ -1,0 +1,604 @@
+body {
+    /* width: 2000px;
+    height: 2000px; */
+    /* background-image: url('/img/markus-spiske-BpgBohGAXS8-unsplash.jpg'); */
+    background: #EDEEF7;
+}
+
+.desktop {
+    position: relative;
+    /* width: 1440px; */
+    height: fit-content;    
+}
+
+.logo {
+    /* HealingTime */
+
+position: absolute;
+width: 139px;
+height: 28px;
+left: 37px;
+top: 41px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 28px;
+
+color: #A71C1C;
+}
+
+.movie {
+    /* Movie */
+
+position: absolute;
+width: 54px;
+height: 23px;
+left: 214px;
+top: 44px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+}
+
+.series {
+    /* Series */
+
+position: absolute;
+width: 56px;
+height: 23px;
+left: 306px;
+top: 44px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+.cartoon {
+    /* Cartoon */
+
+position: absolute;
+width: 72px;
+height: 23px;
+left: 400px;
+top: 44px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+.anime {
+    /* Anime */
+
+position: absolute;
+width: 58px;
+height: 23px;
+left: 510px;
+top: 44px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+.box-iklan {
+    /* Group 13 */
+
+position: absolute;
+width: 994px;
+height: 529px;
+left: 37px;
+top: 100px;
+
+background: url(unsplash:3pR7d-tIRx8.jpg), #C4C4C4;
+border-radius: 16px;
+}
+
+.search {
+    /* Frame 1 */
+
+background-image: url("/img/Vector.svg");;
+position: absolute;
+width: 32px;
+height: 32px;
+left: 917px;
+top: 39px;
+
+}
+
+.notification {
+    /* clarity:notification-outline-badged */
+
+background-image: url("img/clarity_notification-outline-badged.svg");
+position: absolute;
+width: 36px;
+height: 36px;
+left: 972px;
+top: 37px;
+}
+
+.side-user {
+/* Rectangle 1 */
+
+position: absolute;
+width: 371px;
+height: 1024px;
+left: 1069px;
+top: 0px;
+
+background: #A71C1C;
+border-radius: 16px;
+}
+
+.profile-user {
+    /* unsplash:Zz5LQe-VSMY */
+position: absolute;
+left: 1109px;
+top: 50px;
+
+border-radius: 16px;
+}
+
+.username {
+    /* Katty Perry */
+
+position: absolute;
+height: 36px;
+left: 1179px;
+top: 48px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.user-gmail {
+    /* kattyper2032@gmail.com */
+
+position: absolute;
+height: 18px;
+left: 1179px;
+top: 82px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.user-line {
+    /* Vector 1 */
+
+position: absolute;
+width: 295px;
+height: 0px;
+
+background: #FFFFFF;
+border: 2px solid #FFFFFF;
+}
+
+.create-movie {
+    /* wpf:create-new */
+    width: 38px;
+    height: 35px;
+position: absolute;
+left: 1107px;
+top: 163px;
+background-image: url('/img/create.svg');
+}
+
+.read-movie {
+    /* cib:read-the-docs */
+    width: 27px;
+height: 34.71px;
+position: absolute;
+left: 1112px;
+top: 239px;
+background-image: url('/img/read.svg');
+}
+
+.update-movie {
+    /* fluent:dual-screen-update-20-regular */
+    width: 33px;
+    height: 24.2px;
+position: absolute;
+left: 1109px;
+top: 315px;
+background-image: url('/img/update.svg');
+}
+
+.delete-movie {
+/* ant-design:delete-filled */
+width: 33.6px;
+height: 35px;
+position: absolute;
+left: 1109px;
+top: 380px;
+background-image: url('/img/delete.svg');
+}
+
+a.text-crud{
+    /* Create Movie */
+text-decoration: none;
+position: absolute;
+width: 170px;
+height: 36px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.box-news {
+    /* Group 16 */
+    margin: 0;
+    padding: 0;
+display: flex;
+flex-wrap: wrap;
+
+position: relative;
+width: 295px;
+height: 482px;
+left: 1107px;
+top: 473px;
+}
+
+.text-news {
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+.img-news {    
+width: 295px;
+height: 211px;
+
+background: url(.jpg), #FFFFFF;
+border-radius: 16px;
+}
+
+.text-news-info {
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+
+color: #FFFFFF;
+}
+
+.title-ads {
+    /* New Upcoming */
+
+position: absolute;
+width: 435px;
+height: 36px;
+left: 96px;
+top: 398px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+
+.title-text {
+    /* House of Hunt */
+
+position: absolute;
+width: 438px;
+height: 57px;
+left: 96px;
+top: 423px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height */
+
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-watch {
+/* Rectangle 3 */
+
+position: absolute;
+width: 177px;
+height: 57px;
+left: 96px;
+top: 498px;
+
+background: #A71C1C;
+border-radius: 16px;
+}
+
+.watch-now {
+/* WATCH NOW */
+
+position: absolute;
+width: 123.13px;
+height: 30.18px;
+left: 123px;
+top: 512px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+
+color: #FFFFFF;    
+}
+
+.box-next {
+    /* Group 14 */
+
+position: relative;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+width: 994px;
+height: fit-content;
+left: 37px;
+top: 173px;
+
+}
+
+.populer {
+    /* Populer to Watch */
+
+width: 438px;
+height: 41px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+}
+
+.box-film {
+    /* Group 15 */
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+position: relative;
+width: 1003px;
+height: fit-content;
+margin-bottom: 20px;
+left: 37px;
+top: 205px;
+
+}
+
+.box-film-bottom {
+    /* Group 15 */
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+position: relative;
+width: 1003px;
+height: fit-content;
+margin-bottom: 20px;
+left: 37px;
+top: 205px;
+
+}
+
+.box-film-info {
+    /* Group 11 */
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 0px 0px 20px 0px;
+position: relative;
+width: 220px;
+height: fit-content;
+
+/* background: #FFFFFF; */
+}
+
+.film {
+margin: 10px 10px;    
+width: 219.84px;
+height: 332px;
+border-radius: 16px;
+}
+
+.text-film {
+    /* Now You See Mee */
+
+width: 156.61px;
+height: fit-content;
+text-align: center;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+
+.rating {
+
+position: relative;
+width: 98.8px;
+height: fit-content;
+
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a{
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+}
+
+.box-movie {
+
+    margin: auto;
+    padding: 20px 10px 50px 10px;
+    width: 1100px;
+    align-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+}
+.box-movie-info {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 980px;
+    height: fit-content;
+}
+
+.box-empat {
+    width: 980px;
+    height: fit-content;
+    margin: auto;
+    text-align: center;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+}
+
+.img-movie {
+    width: 400px;
+    height: fit-content;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+    border-radius: 16px;
+}
+
+.img-movie-stretch {
+    width: 400px;
+    height: 350px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+.roboto-merah {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+
+    color: #A71C1C;
+}
+
+.roboto-abu {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+
+    color: #9D9D9D;
+}
+
+.roboto-hitam {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+
+    color: #000000;
+}
+.white-line {
+    height: 0px;
+    left: 502px;
+    top: 282px;
+
+    border: 1px solid #CCCCCC;
+    transform: rotate(-0.15deg);
+}
+
+.background {
+    background: url('/img/bg_ar.jpg');
+    height: 750px;
+}
+
+.box-search {
+    display: flex;
+    width: auto;
+    height: fit-content;
+    position: relative;    
+    margin-top: 1000px;
+}
